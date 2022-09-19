@@ -1,0 +1,322 @@
+@font-face {
+	font-family: "BebasNeue";
+	src: url("../fonts/BebasNeue-Regular.woff2") format("woff2"), url("../fonts/BebasNeue-Regular.woff format") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "BebasNeue";
+	src: url("../fonts/BebasNeue-Bold.woff2") format("woff2"), url("../fonts/BebasNeue-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Montserrat";
+	src: url("../fonts/Montserrat-Italic.woff2") format("woff2"), url("../fonts/Montserrat-Italic.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: italic;
+}
+@font-face {
+	font-family: "Montserrat";
+	src: url("../fonts/Montserrat-Bold.woff2") format("woff2"), url("../fonts/Montserrat-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Axiforma";
+	src: url(../fonts/Axiforma-Regular.woff2) format("woff2"), url(../fonts/Axiforma-Regular.woff) format(woff);
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Axiforma";
+	src: url(../fonts/Axiforma-Bold.woff2) format(woff2), url(../fonts/Axiforma-Bold.woff) format(woff);
+	font-display: swap;
+	font-weight: 700;
+}
+@font-face {
+	font-family: "Axiforma" ;
+	src: url(../fonts/Axiforma-Black.woff2) format(woff2), url(../fonts/Axiforma-Black.woff) format(woff);
+	font-display: swap;
+	font-weight: 900;
+}
+
+
+
+body{
+	font-family:"BebasNeue", sans-serif;
+	font-size: 16px;
+	box-sizing: border-box;
+	background-color: rgba(224, 235, 241, 0.945);
+}
+.header {
+	margin: 10px 10px 30px;
+}
+.header-title {
+	font-family: "Montserrat";
+	font-style: italic;
+	margin: 20px 0 0 0;
+	text-align: center;
+	text-shadow: 10px 10px 5px rgba(20, 62, 199, 0.4);
+	font-weight: 700;
+	font-size: 60px;
+	text-decoration: underline;
+	color: rgb(145, 3, 3);
+}
+.header-list {
+	margin: 20px 0 0 30px;
+}
+.header-list-text  img {
+	padding: 0 10px 0 0;
+} 
+.list-two,
+.list-three,
+.list-four {
+    padding: 15px 0 0 0;
+}
+span.text-one {
+	color:rgba(255, 0, 140, 0.7);
+	font-size: 25px;
+	font-weight: 400;
+	text-decoration: line-through;
+	font-style: italic;
+}
+span.text-two {
+	color: rgba(230, 137, 16, 0.6);
+	font-size: 15px;
+	font-weight: 700;
+	text-decoration: underline;
+	text-transform: capitalize;
+	font-family: "Montsserat";
+}
+span.text-three {
+	color: rgba(11, 180, 53, 0.6);
+	font-size: 30px;
+	font-weight: 700;
+	text-decoration: underline;
+	text-transform: uppercase;
+	font-family: "Montsserat";
+}
+.list-four .text-four {
+	color: rgba(166, 43, 43, 0.5);
+	font-size: 20px;
+	font-weight: 700;
+	text-decoration: overline;
+	padding: 5px 0 0 0;
+}
+.content {
+	margin: 0 30px 0 30px;
+}	
+.content-information {
+	margin: 0px 0px 20px 0px;
+}
+.content-information-title {
+	font-family: "Axiforma";
+	font-size: 30px;
+	font-weight: 400;
+	text-decoration: overline;
+	text-transform: capitalize;
+	color: blueviolet;
+	text-align: center;
+	text-shadow: 4px 3px 3px rgb(240, 45, 45);
+	letter-spacing: 10px;
+}
+.content-information-text p {
+	font-family: "Axiforma";
+	font-weight: 700;
+	font-size: 18px;
+	text-transform: capitalize;
+	text-align: center;
+	padding: 15px 0 0 5px;
+	font-style: oblique;
+	color: rgba(27, 26, 26, 0.5);
+}
+p.text {
+	font-family:"Montserrat";
+	font-weight: 700;
+	color: rgba(140, 19, 221, 0.4);
+	text-indent: 35px;
+	text-align: justify;
+	padding: 5px 0 0 0;
+	font-style: normal;
+}
+.text.one {
+	font-family: "BebasNeue";
+	color: rgba(9, 144, 144, 0.8);
+	text-indent: 70px;
+	padding: 20px 0 0 0;
+	text-align: right;
+}
+.content-image-photo{
+	width: 640px;
+	padding: 70px;
+}	
+.content-history {
+	margin: 0px 0px 25px 0px;
+}
+.content-hisory-title {
+	font-weight: 700;
+	text-align: center;
+	text-decoration: line-through;
+	font-style: italic;
+	font-size: 50px;
+	color: rgba(165, 42, 42, 0.4);
+	text-shadow: 50px 25px;
+	letter-spacing: 5px;
+}
+.content-history-item .begin h3 {
+	color: rgba(231, 147, 20, 0.8);
+	text-align: center;
+	font-size: 40px;
+	text-decoration: overline;
+	font-weight: 700;
+	letter-spacing: 15px;
+	margin: 40px 0 20px 0;
+}
+	
+.content-history-item .begin p {
+	font-family: "Montserrat";
+	font-weight: 700;
+	color: rgba(110, 33, 182, 0.856);
+	word-spacing: 8px;
+	line-height: 2;
+	text-transform: lowercase;
+}
+.begin-text span{
+	font-family: "Axiforma";
+	font-weight: 900;
+	color: rgba(0, 0, 255, 0.8);
+	font-style: italic;
+	word-spacing: 2px;
+}
+.content-history-item .building {
+	margin: 10px 0 20px 0;
+}
+.content-history-item .building h3 {
+	color: rgba(231, 45, 20, 0.8);
+	text-align: right;
+	padding-bottom: 15px;
+	font-size: 30px;
+	text-decoration: line-through;
+	font-family: "Axiforma";
+	font-weight: 700;
+	letter-spacing: 25px;
+}
+.content-history-item .building p {
+	font-family: "Montserrat";
+	font-weight: 700;
+	color: rgba(132, 22, 136, 0.7);
+	word-spacing: 5px;
+	line-height: 1.5;
+	text-indent: 50px;
+	font-style: italic;
+	text-align: justify;
+}
+.content-history-item .building span {
+	color: rgba(10, 10, 233, 0.5);
+	font-family: "Montserrat";
+	font-weight: 700;
+	font-size: 25px;
+	text-decoration: underline;
+}
+.history-image {
+	margin: 0 100px;
+	
+}
+.history-image-photo {
+	padding: 80px 80px 0 80px;
+	width: 1084px;
+}
+.history-image-text {
+	color:rgba(14, 166, 226, 0.918);
+	font-family: "Axiforma";
+	font-weight: 900;
+	font-size: 25px;
+	text-align: center;
+	margin: 10px 80px 0 80px;
+}
+.content-missions {
+	font-family: "Montsserat";
+	margin: 0px 0 15px 0;
+}
+.content-missions-title {
+	font-family: "Axiforma";
+	font-weight: 900;
+	color: rgba(111, 0, 255, 0.7);
+	text-align: center;
+	font-style: italic;
+	font-size: 40px;
+	margin: 0 0 10px 0;
+	word-spacing: 40px;
+}
+.content-missions-text > p{
+	color: blue;
+	font-family: "BebasNeue";
+	text-align: justify;
+	text-indent: 35px;
+	font-weight: 700;
+}
+.content-missions-list {
+	color: #aa630c;
+	font-size: 20px;
+	margin: 15px 0 15px 0;
+	font-style: italic;
+}
+.content-missions-list * img {
+	padding: 5px 15px 0 0;
+}
+.content-start {
+	margin: 0px 0px 30px 0px;
+}
+.content-start-title {
+	text-align: center;
+	font-size: 30px;
+	color: #aa630c;
+	font-style: italic;
+	margin: 0px 0px 15px 0;
+	font-weight: 700;
+	text-shadow: 20px 20px 20px rgba(182, 130, 67, 0.5);
+}
+.content-start-text *{
+	font-family: "Axiforma";
+	font-size: 18px;
+	color: rgba(211, 151, 67, 0.8);
+	font-weight: 900;
+	padding: 0 0 15px 0;
+	text-indent: 15px;
+	line-height: 2;
+}
+.content-start-text ~ p {
+	color: rgba(25, 25, 187, 0.822);
+	font-weight: 700;
+	font-style: italic;
+	margin: 0px 0px 15px 0px;
+	line-height: 1.5;
+	white-space: nowrap;
+}
+.footer {
+	font-size: 35px;
+	font-style: italic;
+	text-decoration: underline;
+	color: rgb(63, 207, 159);
+	margin: 0px 0px 0px 30px;
+}
+
+
+
+
+
+	
+
+
+
+
+
+
+
